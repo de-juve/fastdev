@@ -2,21 +2,24 @@
     'use strict';
 
     angular.module('fastdevApp').controller('catEditController', catEditCtrl);
-    catEditCtrl.$inject =  ['$log', '$routeParams', 'Cat'];
-    function catEditCtrl($log, $routeParams, Cat) {
+    catEditCtrl.$inject =  ['$log', '$location', '$timeout', '$routeParams', 'Cat'];
+    function catEditCtrl($log, $location, $timeout, $routeParams, Cat) {
         var vm = this;
         vm.model = {
             cat: Cat.get({catId: $routeParams.catId}),
             description: ''
         };
-        vm.editCat = editCat;
-        vm.model.description = vm.model.cat.description;
-$log.log(vm.model.cat);
-        $log.log(vm.model.cat.description);
+        vm.updateCat = updateCat;
 
-        function editCat() {
+        $timeout(function() { vm.model.description = vm.model.cat.description;},100);
+
+
+        function updateCat() {
             vm.model.cat.description = vm.model.description;
-            vm.model.cat.$save();
+            Cat.update({catId: $routeParams.catId}, vm.model.cat);
+
+        //    vm.model.cat.$save();
+            $timeout(function() {$location.path('#/cats');},200);
         }
     }
 })();

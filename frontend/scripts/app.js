@@ -43,8 +43,8 @@
     'use strict';
 
     angular.module('fastdevApp').controller('catAddController', catAddCtrl);
-    catAddCtrl.$inject =  ['$log', 'Cat', 'Contact'];
-    function catAddCtrl($log, Cat, Contact) {
+    catAddCtrl.$inject =  ['$log', '$location', '$timeout', 'Cat', 'Contact'];
+    function catAddCtrl($log, $location, $timeout, Cat, Contact) {
         var vm = this;
         vm.model = {
             contacts: Contact.query(),
@@ -56,12 +56,12 @@
 
         function addCat() {
             var cat = new Cat();
-            cat.contact = vm.model.contact.id;
+            cat.contact_id = vm.model.contact.id;
             cat.description = vm.model.description;
-            cat.status = true;
-            cat.photo = [];
-           // $log.log(cat);
+            cat.status = 1;
+            cat.photo = null;
             cat.$save();
+            $timeout(function() {$location.path('#/cats');},200);
         }
     }
 })();
@@ -69,8 +69,8 @@
     'use strict';
 
     angular.module('fastdevApp').controller('catDetailController', catDetailCtrl);
-    catDetailCtrl.$inject =  ['$log', '$routeParams', 'Cat'];
-    function catDetailCtrl($log, $routeParams, Cat) {
+    catDetailCtrl.$inject =  ['$log', '$location', '$timeout', '$routeParams', 'Cat'];
+    function catDetailCtrl($log, $location, $timeout, $routeParams, Cat) {
         var vm = this;
         vm.model = {
             cat: Cat.get({catId: $routeParams.catId})
@@ -78,7 +78,8 @@
         vm.deleteCat = deleteCat;
 
         function deleteCat() {
-            Cat.$delete({catId: $routeParams.catId});
+            vm.model.cat.$delete({catId: $routeParams.catId});
+            $timeout(function() {$location.path('#/cats');},200);
         }
     }
 })();
@@ -86,21 +87,24 @@
     'use strict';
 
     angular.module('fastdevApp').controller('catEditController', catEditCtrl);
-    catEditCtrl.$inject =  ['$log', '$routeParams', 'Cat'];
-    function catEditCtrl($log, $routeParams, Cat) {
+    catEditCtrl.$inject =  ['$log', '$location', '$timeout', '$routeParams', 'Cat'];
+    function catEditCtrl($log, $location, $timeout, $routeParams, Cat) {
         var vm = this;
         vm.model = {
             cat: Cat.get({catId: $routeParams.catId}),
             description: ''
         };
-        vm.editCat = editCat;
-        vm.model.description = vm.model.cat.description;
-$log.log(vm.model.cat);
-        $log.log(vm.model.cat.description);
+        vm.updateCat = updateCat;
 
-        function editCat() {
+        $timeout(function() { vm.model.description = vm.model.cat.description;},100);
+
+
+        function updateCat() {
             vm.model.cat.description = vm.model.description;
-            vm.model.cat.$save();
+            Cat.update({catId: $routeParams.catId}, vm.model.cat);
+
+        //    vm.model.cat.$save();
+            $timeout(function() {$location.path('#/cats');},200);
         }
     }
 })();
@@ -124,31 +128,10 @@ $log.log(vm.model.cat);
     cat.$inject =  ['$resource'];
 
     function cat($resource) {
-        return $resource('http://local.fastdev2.com/api/web/v1/cats/:catId', {}, {
-            query: {method:'GET', params:{catId:'@id'}, isArray:true}
+        return $resource('http://fastdev2.local.com/api/web/v1/cats/:catId', {}, {
+            query: {method:'GET', params:{catId:'@id'}, isArray:true},
+            update: { method:'PATCH' }
         });
-        /*var Cats = $resource('http://local.fastdev2.com/api/web/v1/cats');
-        Cats.get(function(u, getResponseHeaders){
-            $log.log(u);
-            $log.log(getResponseHeaders);
-            *//* u.abc = true;
-             u.$save(function(u, putResponseHeaders) {
-             //u => saved user object
-             //putResponseHeaders => $http header getter
-             });*//*
-        });*/
-
-        /* var token = btoa({username:'admin', password: 'admin'});
-         var Cat = $resource('http://local.fastdev2.com/api/web/v1/cats/:catId', {catId:'@id'});
-         Cat.get({catId:1}, function(u, getResponseHeaders){
-         $log.log(u);
-         $log.log(getResponseHeaders);
-         *//* u.abc = true;
-         u.$save(function(u, putResponseHeaders) {
-         //u => saved user object
-         //putResponseHeaders => $http header getter
-         });*//*
-         });*/
     }
 })();
 (function() {
@@ -159,7 +142,7 @@ $log.log(vm.model.cat);
     cat.$inject =  ['$resource'];
 
     function cat($resource) {
-        return $resource('http://local.fastdev2.com/api/web/v1/contacts/:contactId', {}, {
+        return $resource('http://fastdev2.local.com/api/web/v1/contacts/:contactId', {}, {
             query: {method:'GET', params:{contactId:'@id'}, isArray:true}
         });
     }

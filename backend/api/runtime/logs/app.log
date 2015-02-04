@@ -3176,3 +3176,1850 @@ DETAIL:  Failing row contains (null, null, null, null, null).
     'REQUEST_TIME_FLOAT' => 1422987018.78
     'REQUEST_TIME' => 1422987018
 ]
+2015-02-04 05:48:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-04 05:48:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/cats'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '45693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/cats'
+    'REQUEST_URI' => '/api/web/index.php?r=v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423028918.955
+    'REQUEST_TIME' => 1423028918
+]
+2015-02-04 05:48:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-04 05:48:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cats'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '45694'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cats'
+    'REQUEST_URI' => '/api/web/index.php?r=cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423028925.394
+    'REQUEST_TIME' => 1423028925
+]
+2015-02-04 05:49:39 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 05:49:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '45708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/index.php/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PATH_INFO' => '/v1/cats'
+    'PATH_TRANSLATED' => 'redirect:/index.php/cats'
+    'PHP_SELF' => '/api/web/index.php/v1/cats'
+    'REQUEST_TIME_FLOAT' => 1423028979.147
+    'REQUEST_TIME' => 1423028979
+]
+2015-02-04 05:49:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 05:49:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '45709'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/index.php/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PATH_INFO' => '/v1/cats'
+    'PATH_TRANSLATED' => 'redirect:/index.php/cats'
+    'PHP_SELF' => '/api/web/index.php/v1/cats'
+    'REQUEST_TIME_FLOAT' => 1423028985.714
+    'REQUEST_TIME' => 1423028985
+]
+2015-02-04 06:30:08 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 0' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:318
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(318): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/it/Sites/...', 318, Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(420): yii\db\Command->bindValues(Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(460): yii\db\Command->insert('cat', Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#6 [internal function]: yii\rest\CreateAction->run()
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#11 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2015-02-04 06:30:07 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '61'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46177'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423031407.755
+    'REQUEST_TIME' => 1423031407
+]
+2015-02-04 06:31:48 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(1) already exists.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(1) already exists.
+The SQL being executed was: INSERT INTO "cat" ("contact_id", "description", "status") VALUES (1, 'asd', 1)' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(1) already exists.
+)
+
+2015-02-04 06:31:48 [127.0.0.1][-][-][info][application] $_POST = [
+    'contact_id' => '1'
+    'description' => 'asd'
+    'status' => '1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '337'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryG74Eb4AD2sbiXm52'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '757fc892-9e14-a980-e593-f0f57fd754a6'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46187'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423031508.024
+    'REQUEST_TIME' => 1423031508
+]
+2015-02-04 06:32:17 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  missing dimension value' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  missing dimension value
+The SQL being executed was: INSERT INTO "cat" ("contact_id", "description", "status", "photo") VALUES (1, 'asd', 1, '[]')' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 22P02
+    [1] => 7
+    [2] => ERROR:  missing dimension value
+)
+
+2015-02-04 06:32:17 [127.0.0.1][-][-][info][application] $_POST = [
+    'contact_id' => '1'
+    'description' => 'asd'
+    'status' => '1'
+    'photo' => '[]'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '431'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryFk3UOnaXGaQNBBLU'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'ef1da6cf-e01a-4e5c-7358-3231bbbac578'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46190'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423031537.911
+    'REQUEST_TIME' => 1423031537
+]
+2015-02-04 07:27:11 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  array value must start with "{" or dimension information' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  array value must start with "{" or dimension information
+The SQL being executed was: INSERT INTO "cat" ("contact_id", "description", "status", "photo") VALUES (1, 'asd', 1, '""')' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 22P02
+    [1] => 7
+    [2] => ERROR:  array value must start with "{" or dimension information
+)
+
+2015-02-04 07:27:11 [127.0.0.1][-][-][info][application] $_POST = [
+    'contact_id' => '1'
+    'description' => 'asd'
+    'status' => '1'
+    'photo' => '\"\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '431'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary212yb64yJ2flqoAZ'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '61ecbd2e-8bbb-039a-3a50-49514ef36384'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46585'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423034831.539
+    'REQUEST_TIME' => 1423034831
+]
+2015-02-04 07:27:20 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  array value must start with "{" or dimension information' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  array value must start with "{" or dimension information
+The SQL being executed was: INSERT INTO "cat" ("contact_id", "description", "status", "photo") VALUES (1, 'asd', 1, '"{}"')' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 22P02
+    [1] => 7
+    [2] => ERROR:  array value must start with "{" or dimension information
+)
+
+2015-02-04 07:27:20 [127.0.0.1][-][-][info][application] $_POST = [
+    'contact_id' => '1'
+    'description' => 'asd'
+    'status' => '1'
+    'photo' => '\"{}\"'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '433'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryi5WeuI4aA9XW3yOL'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '48a70875-bb97-f792-809f-1a468263e3d6'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46587'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423034840.585
+    'REQUEST_TIME' => 1423034840
+]
+2015-02-04 07:27:25 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(2) already exists.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(2) already exists.
+The SQL being executed was: INSERT INTO "cat" ("contact_id", "description", "status", "photo") VALUES (1, 'asd', 1, '{}')' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(2) already exists.
+)
+
+2015-02-04 07:27:25 [127.0.0.1][-][-][info][application] $_POST = [
+    'contact_id' => '1'
+    'description' => 'asd'
+    'status' => '1'
+    'photo' => '{}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '431'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryjT1KiytMAobdw61k'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '524b3cae-56e0-1bcb-ed24-de63faa1dc02'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46589'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423034845.421
+    'REQUEST_TIME' => 1423034845
+]
+2015-02-04 07:28:15 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(3) already exists.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(3) already exists.
+The SQL being executed was: INSERT INTO "cat" ("contact_id", "description", "status", "photo") VALUES (1, 'asd', 1, '{}')' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(461): yii\db\Command->execute()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23505
+    [1] => 7
+    [2] => ERROR:  duplicate key value violates unique constraint "cat_pkey"
+DETAIL:  Key (id)=(3) already exists.
+)
+
+2015-02-04 07:28:15 [127.0.0.1][-][-][info][application] $_POST = [
+    'contact_id' => '1'
+    'description' => 'asd'
+    'status' => '1'
+    'photo' => '{}'
+    'id' => '5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '521'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarylD9ntCeCliSQI9TL'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'f4327450-8666-5714-b00d-683418ca8798'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46592'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423034895.546
+    'REQUEST_TIME' => 1423034895
+]
+2015-02-04 07:43:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 6' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('6')
+#1 [internal function]: yii\rest\ViewAction->run('6')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/view', Array)
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-04 07:43:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46806'
+    'REDIRECT_URL' => '/api/web/v1/cats/6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/6'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423035786.363
+    'REQUEST_TIME' => 1423035786
+]
+2015-02-04 07:43:38 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 6' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('6')
+#1 [internal function]: yii\rest\ViewAction->run('6')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/view', Array)
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-04 07:43:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46813'
+    'REDIRECT_URL' => '/api/web/v1/cats/6'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/6'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423035818.41
+    'REQUEST_TIME' => 1423035818
+]
+2015-02-04 07:48:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 5' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/DeleteAction.php(28): yii\rest\Action->findModel('5')
+#1 [internal function]: yii\rest\DeleteAction->run('5')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('delete', Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/delete', Array)
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-04 07:48:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46909'
+    'REDIRECT_URL' => '/api/web/v1/cats/5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'DELETE'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/5'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423036093.418
+    'REQUEST_TIME' => 1423036093
+]
+2015-02-04 07:48:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 5' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/ViewAction.php(27): yii\rest\Action->findModel('5')
+#1 [internal function]: yii\rest\ViewAction->run('5')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('view', Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/view', Array)
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-04 07:48:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46909'
+    'REDIRECT_URL' => '/api/web/v1/cats/5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/5'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423036095.792
+    'REQUEST_TIME' => 1423036095
+]
+2015-02-04 07:48:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Object not found: 5' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Action.php:101
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/DeleteAction.php(28): yii\rest\Action->findModel('5')
+#1 [internal function]: yii\rest\DeleteAction->run('5')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('delete', Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/delete', Array)
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2015-02-04 07:48:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46923'
+    'REDIRECT_URL' => '/api/web/v1/cats/5'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'DELETE'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/5'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423036114.348
+    'REQUEST_TIME' => 1423036114
+]
+2015-02-04 07:50:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 0' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:318
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(318): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/it/Sites/...', 318, Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(420): yii\db\Command->bindValues(Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(460): yii\db\Command->insert('cat', Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#6 [internal function]: yii\rest\CreateAction->run()
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#11 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2015-02-04 07:50:21 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '61'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '46985'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423036221.587
+    'REQUEST_TIME' => 1423036221
+]
+2015-02-04 07:52:04 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 0' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:318
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(318): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', '/home/it/Sites/...', 318, Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(420): yii\db\Command->bindValues(Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(460): yii\db\Command->insert('cat', Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(424): yii\db\ActiveRecord->insertInternal(NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(582): yii\db\ActiveRecord->insert(true, NULL)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#6 [internal function]: yii\rest\CreateAction->run()
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#11 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2015-02-04 07:52:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '47006'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423036324.379
+    'REQUEST_TIME' => 1423036324
+]
+2015-02-04 08:42:01 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\rest\UpdateAction::prepareDataProvider' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(518): yii\base\Component->__set('prepareDataProv...', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\rest\UpdateAction), Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(60): yii\base\Object->__construct(Array)
+#3 [internal function]: yii\base\Action->__construct('update', Object(api\modules\v1\controllers\CatController), Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(368): ReflectionClass->newInstanceArgs(Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('yii\rest\Update...', Array, Array)
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\rest\Update...', Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(219): yii\BaseYii::createObject(Array, Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(120): yii\base\Controller->createAction('update')
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/update', Array)
+#11 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2015-02-04 08:42:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'bb81d3ac-1c73-e798-f086-8d583968bfd1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '47833'
+    'REDIRECT_URL' => '/api/web/v1/cats/16'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/16'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423039320.902
+    'REQUEST_TIME' => 1423039320
+]
+2015-02-04 08:43:12 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/cat/update' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/update', Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 08:43:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'a87f2615-6ff0-048e-3b04-79c9f49d5c71'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '47840'
+    'REDIRECT_URL' => '/api/web/v1/cats/16'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/16'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423039392.856
+    'REQUEST_TIME' => 1423039392
+]
+2015-02-04 08:43:30 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/cat/update' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/update', Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 08:43:30 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '68cd91f0-f928-a8d8-2750-4464b0da8bab'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '47841'
+    'REDIRECT_URL' => '/api/web/v1/cats/16'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/16'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423039410.967
+    'REQUEST_TIME' => 1423039410
+]
+2015-02-04 09:27:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/cat/index' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 09:27:22 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48116'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423042042.985
+    'REQUEST_TIME' => 1423042042
+]
+2015-02-04 09:27:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/cat/index' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 09:27:48 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48131'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423042068.797
+    'REQUEST_TIME' => 1423042068
+]
+2015-02-04 09:30:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: v1/cat/index' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php:95
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#2 {main}
+2015-02-04 09:30:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48182'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423042243.34
+    'REQUEST_TIME' => 1423042243
+]
+2015-02-04 09:33:35 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: api\modules\v1\models\Cat::test' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(246): yii\base\Component->__get('test')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ArrayableTrait.php(120): yii\db\BaseActiveRecord->__get('test')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(266): yii\base\Model->toArray(Array, Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(162): yii\rest\Serializer->serializeModels(Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(131): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2015-02-04 09:33:35 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48215'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423042415.231
+    'REQUEST_TIME' => 1423042415
+]
+2015-02-04 09:45:16 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\rest\IndexAction::isValid' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php(26): yii\base\Component->__get('isValid')
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(149): api\modules\v1\controllers\CatController->beforeAction(Object(yii\rest\IndexAction))
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#6 {main}
+2015-02-04 09:45:16 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48340'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423043116.062
+    'REQUEST_TIME' => 1423043116
+]
+2015-02-04 09:45:38 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Response.php:944
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Response.php(312): yii\web\Response->prepare()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(381): yii\web\Response->send()
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-04 09:45:38 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48351'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423043138.408
+    'REQUEST_TIME' => 1423043138
+]
+2015-02-04 09:45:49 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Response.php:944
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Response.php(312): yii\web\Response->prepare()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(381): yii\web\Response->send()
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-04 09:45:49 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48349'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423043149.287
+    'REQUEST_TIME' => 1423043149
+]
+2015-02-04 09:46:15 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Response content must not be an array.' in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Response.php:944
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Response.php(312): yii\web\Response->prepare()
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(381): yii\web\Response->send()
+#2 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-04 09:46:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'sig7951flm4iksf46qblf0qen1'
+    '_csrf' => 'c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=sig7951flm4iksf46qblf0qen1; _csrf=c9633a88ea65b34878c464a013c037111c0094be612c5691d48a7dc013edfff0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22bMxtSPsfkE7-LlfrFyhwYfxlGWUkuUF-%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48356'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423043175.256
+    'REQUEST_TIME' => 1423043175
+]
+2015-02-04 10:22:23 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents(): Only 0 of 6 bytes written, possibly out of free disk space' in /home/it/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/home/it/Sites/...', 20, Array)
+#1 /home/it/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php(20): file_put_contents('php://input', '{test}')
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(149): api\modules\v1\controllers\CatController->beforeAction(Object(yii\rest\UpdateAction))
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/update', Array)
+#5 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#7 {main}
+2015-02-04 10:22:23 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '215'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48795'
+    'REDIRECT_URL' => '/api/web/v1/cats/16'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/16'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423045343.89
+    'REQUEST_TIME' => 1423045343
+]
+2015-02-04 10:31:34 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for api\modules\v1\models\Cat::beforeValidate(), called in /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php on line 318 and defined' in /home/it/Sites/fastdev/backend/api/modules/v1/models/Cat.php:56
+Stack trace:
+#0 /home/it/Sites/fastdev/backend/api/modules/v1/models/Cat.php(56): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', '/home/it/Sites/...', 56, Array)
+#1 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(318): api\modules\v1\models\Cat->beforeValidate()
+#2 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(535): yii\base\Model->validate(NULL)
+#3 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(584): yii\db\ActiveRecord->update(true, NULL)
+#4 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/UpdateAction.php(46): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\UpdateAction->run('16')
+#6 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('update', Array)
+#9 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/update', Array)
+#10 /home/it/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/it/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2015-02-04 10:31:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '16'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'fastdev2.local.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '215'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://fastdev.local.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://fastdev.local.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at fastdev2.local.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'fastdev2.local.com'
+    'SERVER_ADDR' => '127.0.1.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/fastdev/backend'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '48916'
+    'REDIRECT_URL' => '/api/web/v1/cats/16'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'PATCH'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/16'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1423045894.315
+    'REQUEST_TIME' => 1423045894
+]

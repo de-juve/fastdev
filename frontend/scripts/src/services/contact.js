@@ -6,7 +6,7 @@
     cat.$inject =  ['$resource'];
 
     function cat($resource) {
-        return $resource('http://local.fastdev2.com/api/web/v1/contacts/:contactId', {}, {
+        return $resource('http://fastdev2.local.com/api/web/v1/contacts/:contactId', {}, {
             query: {method:'GET', params:{contactId:'@id'}, isArray:true}
         });
     }

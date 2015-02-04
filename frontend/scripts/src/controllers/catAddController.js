@@ -2,8 +2,8 @@
     'use strict';
 
     angular.module('fastdevApp').controller('catAddController', catAddCtrl);
-    catAddCtrl.$inject =  ['$log', 'Cat', 'Contact'];
-    function catAddCtrl($log, Cat, Contact) {
+    catAddCtrl.$inject =  ['$log', '$location', '$timeout', 'Cat', 'Contact'];
+    function catAddCtrl($log, $location, $timeout, Cat, Contact) {
         var vm = this;
         vm.model = {
             contacts: Contact.query(),
@@ -15,12 +15,12 @@
 
         function addCat() {
             var cat = new Cat();
-            cat.contact = vm.model.contact.id;
+            cat.contact_id = vm.model.contact.id;
             cat.description = vm.model.description;
-            cat.status = true;
-            cat.photo = [];
-           // $log.log(cat);
+            cat.status = 1;
+            cat.photo = null;
             cat.$save();
+            $timeout(function() {$location.path('#/cats');},200);
         }
     }
 })();

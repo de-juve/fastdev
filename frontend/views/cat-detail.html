@@ -1,7 +1,7 @@
 <div class="container">
-    <a href="/">Вернутся к списку</a>
+    <a href="#/">Вернутся к списку</a>
     <div class="cat_images">
-        <div ng-repeat="photo in vm.model.cat.photo track by $index" class="cat_image">
+        <div ng-repeat="photo in vm.model.cat.photo_url track by $index" class="cat_image">
             <img ng-src="{{photo}}" />
         </div>
     </div>

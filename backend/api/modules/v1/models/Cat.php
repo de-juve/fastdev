@@ -1,18 +1,57 @@
 <?php
+
 namespace api\modules\v1\models;
 
-use yii\db\ActiveRecord;
+use Yii;
 
-class Cat  extends ActiveRecord {
+/**
+ * This is the model class for table "cat".
+ *
+ * @property integer $id
+ * @property string $description
+ * @property integer $contact_id
+ * @property string $photo
+ * @property boolean $status
+ *
+ * @property Contact $contact
+ */
+class Cat extends \yii\db\ActiveRecord
+{
+    /**
+     * @inheritdoc
+     */
     public static function tableName()
     {
-        return '{{%cat}}';
+        return 'cat';
     }
 
-    /*public function rules()
+    /**
+     * @inheritdoc
+     */
+    public function rules()
     {
-        return [['description', 'contact_id', 'photo', 'status'], 'required'];
-    }*/
+        return [
+            [['contact_id'], 'required'],
+            [['contact_id'], 'integer'],
+            [['photo'], 'string'],
+            [['status'], 'boolean'],
+            [['description'], 'string', 'max' => 256]
+        ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'id' => 'ID',
+            'description' => 'Description',
+            'contact_id' => 'Contact ID',
+            'photo' => 'Photo',
+            'status' => 'Status',
+        ];
+    }
 
     public function fields()
     {
@@ -20,7 +59,7 @@ class Cat  extends ActiveRecord {
             'id',
             'description',
             'status',
-            'contact' => function() {
+            'contact' => function () {
                 $customer = Contact::find()
                     ->where(['id' => $this->contact_id])
                     ->one();
@@ -28,19 +67,20 @@ class Cat  extends ActiveRecord {
                     'name' => $customer['name'],
                     'phone' => $customer['phone'],
                     'email' => $customer['email']
-                    );
+                );
             },
-            'photo' => function () {
+            'photo',
+            'photo_url' => function () {
                 $photo_ids = !is_null($this->photo) ? $this->pgArrayToPhp($this->photo) : NULL;
-                $photo = array();
-                if(!is_null($photo_ids)) {
-                    foreach($photo_ids as $id) {
-                        $photo[] = 'http://local.fastdev2.com/api/web/resource/images/'.$id.'.png';
+                $photo_url = array();
+                if (!is_null($photo_ids)) {
+                    foreach ($photo_ids as $id) {
+                        $photo_url[] = 'http://fastdev2.local.com/api/web/resource/images/' . $id . '.png';
                     }
                 } else {
-                    $photo[] = 'http://local.fastdev2.com/api/web/resource/images/no_photo.jpeg';
+                    $photo_url[] = 'http://fastdev2.local.com/api/web/resource/images/no_photo.jpeg';
                 }
-                return $photo;
+                return $photo_url;
             },
         ];
     }
@@ -73,4 +113,11 @@ class Cat  extends ActiveRecord {
         }
     }
 
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getContact()
+    {
+        return $this->hasOne(Contact::className(), ['id' => 'contact_id']);
+    }
 }

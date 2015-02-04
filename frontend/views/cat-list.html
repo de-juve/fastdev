@@ -4,7 +4,7 @@
     <ul class="cats">
         <li ng-repeat="cat in vm.model.cats | filter:query | orderBy:orderProp" >
             <div class="cat_item">
-                <a href="#/cats/{{cat.id}}" class="thumb"><img ng-src="{{cat.photo[0]}}"></a>
+                <a href="#/cats/{{cat.id}}" class="thumb"><img ng-src="{{cat.photo_url[0]}}"></a>
                 <p ng-bind="cat.description"></p>
                 <p ng-bind-template="Владелец {{cat.contact.name}}"></p>
                 <a href="#/cats/{{cat.id}}">Подробнее</a>
