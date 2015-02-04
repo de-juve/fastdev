@@ -1,0 +1,18 @@
+<div class="container">
+    <a href="/">Вернутся к списку</a>
+    <div class="cat_images">
+        <div ng-repeat="photo in vm.model.cat.photo track by $index" class="cat_image">
+            <img ng-src="{{photo}}" />
+        </div>
+    </div>
+    <div class="cat_detail">
+        <p ng-bind="vm.model.cat.description"></p>
+        <p ng-bind-template="Владелец {{vm.model.cat.contact.name}}" />
+        <div ng-if="vm.model.cat.status">Свободен</div>
+        <div ng-if="!vm.model.cat.status">Забран</div>
+    </div>
+    <div class="cat_action">
+        <a href="#/cat-edit/{{vm.model.cat.id}}">Изменить</a>
+        <button ng-click="vm.deleteCat()">Удалить</button>
+    </div>
+</div>

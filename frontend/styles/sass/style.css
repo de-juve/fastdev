@@ -1,0 +1,67 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+img {
+  max-width: 100%; }
+
+ul {
+  width: 760px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-top: 1px solid #ccc; }
+
+li {
+  line-height: 1.5em;
+  border-bottom: 1px solid #ccc;
+  float: left;
+  display: inline; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.cat_item {
+  border: solid 1px black;
+  width: 200px;
+  background: #ccc;
+  padding: 5px;
+  padding-right: 20px;
+  margin-right: 20px; }
+
+.cat_images {
+  float: left;
+  display: block;
+  margin-right: 10.1484%;
+  width: 26.56773%; }
+  .cat_images:last-child {
+    margin-right: 0; }
+
+.cat_detail {
+  float: left;
+  display: block;
+  margin-right: 10.1484%;
+  width: 63.28387%;
+  -webkit-columns: 12 18em;
+  -moz-columns: 12 18em;
+  columns: 12 18em;
+  background-color: rgba(180, 181, 182, 0.43);
+  text-align: left;
+  padding-top: 1em;
+  padding-bottom: 10px;
+  padding-left: 3em; }
+  .cat_detail:last-child {
+    margin-right: 0; }
+
+/*# sourceMappingURL=style.css.map */

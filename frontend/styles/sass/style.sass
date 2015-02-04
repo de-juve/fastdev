@@ -1,0 +1,42 @@
+@import "../bourbon/bourbon"
+@import "../neat/neat"
+@import "variables"
+
+img
+  max-width: 100%
+
+ul
+  width: 760px
+  margin-bottom: 20px
+  overflow: hidden
+  border-top: 1px solid #ccc
+
+li
+  line-height: 1.5em
+  border-bottom: 1px solid #ccc
+  float: left
+  display: inline
+
+.container
+  @include outer-container
+
+
+
+.cat_item
+  border: solid 1px black
+  width: 200px
+  background: #ccc
+  padding: 5px
+  padding-right: 20px
+  margin-right: 20px
+
+
+.cat_images
+  @include span-columns(1 of 3)
+
+.cat_detail
+  @include span-columns(2 of 3)
+  @include columns(12 18em)
+  background-color: $grey
+  text-align: left
+  @include padding(1em null 10px 3em)

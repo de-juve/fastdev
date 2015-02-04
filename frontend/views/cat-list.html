@@ -1,0 +1,27 @@
+<div class="container">
+    <!--Body content-->
+
+    <ul class="cats">
+        <li ng-repeat="cat in vm.model.cats | filter:query | orderBy:orderProp" >
+            <div class="cat_item">
+                <a href="#/cats/{{cat.id}}" class="thumb"><img ng-src="{{cat.photo[0]}}"></a>
+                <p ng-bind="cat.description"></p>
+                <p ng-bind-template="Владелец {{cat.contact.name}}"></p>
+                <a href="#/cats/{{cat.id}}">Подробнее</a>
+            </div>
+
+        </li>
+    </ul>
+    <a href="#/cat-add">Добавить объявление</a>
+
+</div>
+
+<!--
+<div ng-repeat="cat in vm.model.cats">
+    <span ng-bind="cat.description"></span>
+    <div ng-if="cat.photo">
+        <img ng-src="http://local.fastdev2.com/api/web/resource/images/{{cat.photo[0]}}.png" />
+    </div>
+    <div ng-if="cat.status">Свободен</div>
+    <div ng-if="!cat.status">Забран</div>
+</div>-->

@@ -1,0 +1,3178 @@
+2015-02-01 15:43:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:43:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56382'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805409.545
+    'REQUEST_TIME' => 1422805409
+]
+2015-02-01 15:43:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:43:40 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56384'
+    'REDIRECT_URL' => '/api/web/cat'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/cat'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805420.889
+    'REQUEST_TIME' => 1422805420
+]
+2015-02-01 15:43:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:43:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56384'
+    'REDIRECT_URL' => '/api/web/v1/cat'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cat'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805425.81
+    'REQUEST_TIME' => 1422805425
+]
+2015-02-01 15:43:56 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:43:56 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56385'
+    'REDIRECT_URL' => '/api/web/v1/cat/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cat/1'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805436.487
+    'REQUEST_TIME' => 1422805436
+]
+2015-02-01 15:44:00 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/index')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:44:00 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56385'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805440.202
+    'REQUEST_TIME' => 1422805440
+]
+2015-02-01 15:44:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:44:41 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'de63d442-7d8a-e7b1-1697-3ea0aef7c95c'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805481.575
+    'REQUEST_TIME' => 1422805481
+]
+2015-02-01 15:44:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:44:48 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '4780c188-6c1b-0ad8-d68e-07ff649911f1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56394'
+    'REDIRECT_URL' => '/api/web/v1/cat'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cat'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805488.603
+    'REQUEST_TIME' => 1422805488
+]
+2015-02-01 15:44:54 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:44:54 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'e06241cf-1ead-8e71-22fe-a4549db84245'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56395'
+    'REDIRECT_URL' => '/api/web/v1/contacts'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contacts'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805494.313
+    'REQUEST_TIME' => 1422805494
+]
+2015-02-01 15:44:57 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:44:57 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '2d7b58e2-099f-b4c6-d3b9-c139d6bd285e'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56395'
+    'REDIRECT_URL' => '/api/web/v1/contact'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contact'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805497.334
+    'REQUEST_TIME' => 1422805497
+]
+2015-02-01 15:44:58 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:44:58 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'dbfe1688-1af6-dfe7-66ac-638123adbdb6'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56395'
+    'REDIRECT_URL' => '/api/web/v1/contact/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contact/1'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805498.616
+    'REQUEST_TIME' => 1422805498
+]
+2015-02-01 15:46:58 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/index')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:46:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56403'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805618.227
+    'REQUEST_TIME' => 1422805618
+]
+2015-02-01 15:47:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56404'
+    'REDIRECT_URL' => '/api/web/v1/cat'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cat'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805621.135
+    'REQUEST_TIME' => 1422805621
+]
+2015-02-01 15:47:05 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56404'
+    'REDIRECT_URL' => '/api/web/v1/cat/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cat/1'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805625.592
+    'REQUEST_TIME' => 1422805625
+]
+2015-02-01 15:47:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:11 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805631.975
+    'REQUEST_TIME' => 1422805631
+]
+2015-02-01 15:47:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56405'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805635.093
+    'REQUEST_TIME' => 1422805635
+]
+2015-02-01 15:47:20 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/index')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:47:20 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56405'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805640.02
+    'REQUEST_TIME' => 1422805640
+]
+2015-02-01 15:47:25 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:25 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56406'
+    'REDIRECT_URL' => '/api/web/v1/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/users'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805645.93
+    'REQUEST_TIME' => 1422805645
+]
+2015-02-01 15:47:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56406'
+    'REDIRECT_URL' => '/api/web/v1/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/user'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805649.265
+    'REQUEST_TIME' => 1422805649
+]
+2015-02-01 15:47:33 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:33 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56406'
+    'REDIRECT_URL' => '/api/web/v1/mouses'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/mouses'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805653.202
+    'REQUEST_TIME' => 1422805653
+]
+2015-02-01 15:47:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 15:47:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56406'
+    'REDIRECT_URL' => '/api/web/v1/users'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/users'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805655.864
+    'REQUEST_TIME' => 1422805655
+]
+2015-02-01 15:47:39 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/index')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:47:39 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56406'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805659.385
+    'REQUEST_TIME' => 1422805659
+]
+2015-02-01 15:47:43 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/contact/inde...')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/contact/inde...', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:47:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56409'
+    'REDIRECT_URL' => '/api/web/v1/contacts'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contacts'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805663.174
+    'REQUEST_TIME' => 1422805663
+]
+2015-02-01 15:52:41 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/index')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:52:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56433'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422805961.634
+    'REQUEST_TIME' => 1422805961
+]
+2015-02-01 15:54:27 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class api\modules\v1\Module does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('api\\modules\\v1\\...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('api\\modules\\v1\\...', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('api\\modules\\v1\\...', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(354): yii\BaseYii::createObject(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(511): yii\base\Module->getModule('v1')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/index')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#10 {main}
+2015-02-01 15:54:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56466'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806067.213
+    'REQUEST_TIME' => 1422806067
+]
+2015-02-01 16:02:58 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'api\modules\v1\controllers\QueryParamAuth' not found' in /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-01 16:02:57 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56486'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806577.979
+    'REQUEST_TIME' => 1422806577
+]
+2015-02-01 16:03:29 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'api\modules\v1\controllers\ContentNegotiator' not found' in /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-01 16:03:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56489'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806609.925
+    'REQUEST_TIME' => 1422806609
+]
+2015-02-01 16:04:32 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2015-02-01 16:04:32 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56493'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806672.78
+    'REQUEST_TIME' => 1422806672
+]
+2015-02-01 16:04:45 [127.0.0.1][-][-][error][yii\web\HttpException:401] exception 'yii\web\UnauthorizedHttpException' with message 'You are requesting with an invalid credential.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/filters/auth/AuthMethod.php:73
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/filters/auth/AuthMethod.php(56): yii\filters\auth\AuthMethod->handleFailure(Object(yii\web\Response))
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ActionFilter.php(71): yii\filters\auth\AuthMethod->beforeAction(Object(yii\rest\IndexAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Component.php(538): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(259): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Controller.php(108): yii\base\Controller->beforeAction(Object(yii\rest\IndexAction))
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\rest\IndexAction))
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2015-02-01 16:04:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56494'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806685.768
+    'REQUEST_TIME' => 1422806685
+]
+2015-02-01 16:05:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:05:17 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '23d1cbde-573e-a8ba-73ec-85d3528e71d5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56498'
+    'REDIRECT_URL' => '/api/web/v1/contact/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contact/1'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806717.894
+    'REQUEST_TIME' => 1422806717
+]
+2015-02-01 16:05:23 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:05:23 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '93fdd32c-ed9e-87fc-97a7-f92bfc324e08'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56501'
+    'REDIRECT_URL' => '/api/web/v1/cat/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cat/1'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422806723.128
+    'REQUEST_TIME' => 1422806723
+]
+2015-02-01 16:31:47 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:31:47 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56661'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808307.624
+    'REQUEST_TIME' => 1422808307
+]
+2015-02-01 16:32:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:32:43 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56667'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808363.86
+    'REQUEST_TIME' => 1422808363
+]
+2015-02-01 16:32:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:32:45 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56667'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808365.925
+    'REQUEST_TIME' => 1422808365
+]
+2015-02-01 16:32:49 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:32:48 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56667'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808368.979
+    'REQUEST_TIME' => 1422808368
+]
+2015-02-01 16:33:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:33:02 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56673'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808382.5
+    'REQUEST_TIME' => 1422808382
+]
+2015-02-01 16:33:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:33:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56673'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808384.457
+    'REQUEST_TIME' => 1422808384
+]
+2015-02-01 16:33:11 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:33:11 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56677'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808391.783
+    'REQUEST_TIME' => 1422808391
+]
+2015-02-01 16:34:03 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:34:03 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56687'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808443.679
+    'REQUEST_TIME' => 1422808443
+]
+2015-02-01 16:34:06 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:34:06 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56687'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808446.2
+    'REQUEST_TIME' => 1422808446
+]
+2015-02-01 16:38:09 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:38:09 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56702'
+    'REDIRECT_URL' => '/api/web/v1/cats/cats.json'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/cats.json'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808689.487
+    'REQUEST_TIME' => 1422808689
+]
+2015-02-01 16:38:35 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:38:35 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56708'
+    'REDIRECT_URL' => '/api/web/v1/cats/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808715.977
+    'REQUEST_TIME' => 1422808715
+]
+2015-02-01 16:38:40 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:38:40 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56708'
+    'REDIRECT_URL' => '/api/web/v1/cats/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808720.082
+    'REQUEST_TIME' => 1422808720
+]
+2015-02-01 16:38:45 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-01 16:38:45 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '56707'
+    'REDIRECT_URL' => '/api/web/v1/cats/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422808725.676
+    'REQUEST_TIME' => 1422808725
+]
+2015-02-01 17:13:56 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'pg_fetch_array() expects parameter 1 to be resource, null given' in /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pg_fetch_array(...', '/Users/dm/Sites...', 23, Array)
+#1 /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php(23): pg_fetch_array(NULL)
+#2 [internal function]: api\modules\v1\models\Cat->api\modules\v1\models\{closure}(Object(api\modules\v1\models\Cat), 'photo')
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ArrayableTrait.php(120): call_user_func(Object(Closure), Object(api\modules\v1\models\Cat), 'photo')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(266): yii\base\Model->toArray(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(162): yii\rest\Serializer->serializeModels(Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(131): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#12 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#14 {main}
+2015-02-01 17:13:55 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '57003'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422810835.451
+    'REQUEST_TIME' => 1422810835
+]
+2015-02-01 17:14:06 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'pg_fetch_array() expects parameter 1 to be resource, null given' in /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pg_fetch_array(...', '/Users/dm/Sites...', 23, Array)
+#1 /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php(23): pg_fetch_array(NULL)
+#2 [internal function]: api\modules\v1\models\Cat->api\modules\v1\models\{closure}(Object(api\modules\v1\models\Cat), 'photo')
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ArrayableTrait.php(120): call_user_func(Object(Closure), Object(api\modules\v1\models\Cat), 'photo')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(266): yii\base\Model->toArray(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(162): yii\rest\Serializer->serializeModels(Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(131): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#12 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#14 {main}
+2015-02-01 17:14:05 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '57005'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422810845.994
+    'REQUEST_TIME' => 1422810845
+]
+2015-02-01 17:14:43 [127.0.0.1][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'pg_fetch_array() expects parameter 1 to be resource, string given' in /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php:23
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'pg_fetch_array(...', '/Users/dm/Sites...', 23, Array)
+#1 /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php(23): pg_fetch_array('{2,3,4}')
+#2 [internal function]: api\modules\v1\models\Cat->api\modules\v1\models\{closure}(Object(api\modules\v1\models\Cat), 'photo')
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ArrayableTrait.php(120): call_user_func(Object(Closure), Object(api\modules\v1\models\Cat), 'photo')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(266): yii\base\Model->toArray(Array, Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(162): yii\rest\Serializer->serializeModels(Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(131): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/index', Array)
+#12 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#14 {main}
+2015-02-01 17:14:43 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s:32:\"Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ\";'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=8c8926b30ea7322107290d5f5e63c179dd8b640114c058cc75bf52c182a3af33s%3A32%3A%22Y1R9mCEuFRhHYayEOljogXQtyIe3LJHQ%22%3B'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '57010'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422810883.242
+    'REQUEST_TIME' => 1422810883
+]
+2015-02-02 15:09:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-02 15:09:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58074'
+    'REDIRECT_URL' => '/api/web/resource/images/http://local.fastdev2.com/api/web/resource/images/4.png.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/resource/images/http://local.fastdev2.com/api/web/resource/images/4.png.png'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422889792.917
+    'REQUEST_TIME' => 1422889792
+]
+2015-02-02 15:09:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-02 15:09:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58072'
+    'REDIRECT_URL' => '/api/web/resource/images/http://local.fastdev2.com/api/web/resource/images/2.png.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/resource/images/http://local.fastdev2.com/api/web/resource/images/2.png.png'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422889792.889
+    'REQUEST_TIME' => 1422889792
+]
+2015-02-02 15:09:52 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-02 15:09:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58073'
+    'REDIRECT_URL' => '/api/web/resource/images/http://local.fastdev2.com/api/web/resource/images/3.png.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/resource/images/http://local.fastdev2.com/api/web/resource/images/3.png.png'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422889792.903
+    'REQUEST_TIME' => 1422889792
+]
+2015-02-03 15:31:13 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-03 15:31:12 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'b94482712a9f0555cfb9dea58d48763ef9df28e8f33d4b291ba6a41bbb1c0991a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1LIPWQi8w6ndmJMbk2atwFZgwredR4aC\";}'
+    'PHPSESSID' => '66orpaadtjq3snhfl0lcqofn70'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=b94482712a9f0555cfb9dea58d48763ef9df28e8f33d4b291ba6a41bbb1c0991a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221LIPWQi8w6ndmJMbk2atwFZgwredR4aC%22%3B%7D; PHPSESSID=66orpaadtjq3snhfl0lcqofn70'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58611'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422977472.948
+    'REQUEST_TIME' => 1422977472
+]
+2015-02-03 15:37:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Request.php:187
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(75): yii\web\Request->resolve()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#3 {main}
+2015-02-03 15:37:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '66orpaadtjq3snhfl0lcqofn70'
+    '_csrf' => 'b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Aot4e1IlcfYhneXj3W4rPMs35h966LqP\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=66orpaadtjq3snhfl0lcqofn70; _csrf=b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Aot4e1IlcfYhneXj3W4rPMs35h966LqP%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58658'
+    'REDIRECT_URL' => '/api/web/v1/contacts'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contacts'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422977861.342
+    'REQUEST_TIME' => 1422977861
+]
+2015-02-03 15:38:23 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\modules\v1\controllers\ContactController' in file: /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/ContactController.php. Namespace missing?' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\modules\\v1\\...')
+#1 [internal function]: spl_autoload_call('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(563): class_exists('api\\modules\\v1\\...')
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('contact')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('contact/index')
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/contact/inde...')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/contact/inde...', Array)
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2015-02-03 15:38:23 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '66orpaadtjq3snhfl0lcqofn70'
+    '_csrf' => 'b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Aot4e1IlcfYhneXj3W4rPMs35h966LqP\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=66orpaadtjq3snhfl0lcqofn70; _csrf=b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Aot4e1IlcfYhneXj3W4rPMs35h966LqP%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58660'
+    'REDIRECT_URL' => '/api/web/v1/contacts'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contacts'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422977903.716
+    'REQUEST_TIME' => 1422977903
+]
+2015-02-03 15:38:27 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'api\modules\v1\controllers\ContactController' in file: /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/ContactController.php. Namespace missing?' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('api\\modules\\v1\\...')
+#1 [internal function]: spl_autoload_call('api\\modules\\v1\\...')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(563): class_exists('api\\modules\\v1\\...')
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('contact')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('contact/index')
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/contact/inde...')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/contact/inde...', Array)
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2015-02-03 15:38:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '66orpaadtjq3snhfl0lcqofn70'
+    '_csrf' => 'b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Aot4e1IlcfYhneXj3W4rPMs35h966LqP\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=66orpaadtjq3snhfl0lcqofn70; _csrf=b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Aot4e1IlcfYhneXj3W4rPMs35h966LqP%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58661'
+    'REDIRECT_URL' => '/api/web/v1/contacts'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contacts'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422977907.08
+    'REQUEST_TIME' => 1422977907
+]
+2015-02-03 15:38:38 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: api\modules\v1\models\Contact::status' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(247): yii\base\Component->__get('status')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/ArrayableTrait.php(120): yii\db\BaseActiveRecord->__get('status')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(266): yii\base\Model->toArray(Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(162): yii\rest\Serializer->serializeModels(Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Serializer.php(131): yii\rest\Serializer->serializeDataProvider(Object(yii\data\ActiveDataProvider))
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(97): yii\rest\Serializer->serialize(Object(yii\data\ActiveDataProvider))
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/Controller.php(75): yii\rest\Controller->serializeData(Object(yii\data\ActiveDataProvider))
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(153): yii\rest\Controller->afterAction(Object(yii\rest\IndexAction), Object(yii\data\ActiveDataProvider))
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/contact/inde...', Array)
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+2015-02-03 15:38:38 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => '66orpaadtjq3snhfl0lcqofn70'
+    '_csrf' => 'b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Aot4e1IlcfYhneXj3W4rPMs35h966LqP\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'PHPSESSID=66orpaadtjq3snhfl0lcqofn70; _csrf=b3fbb8104b6a7184e82b54b7d4fd7857fead116795cd71e2a919428b83cdeff7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Aot4e1IlcfYhneXj3W4rPMs35h966LqP%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58662'
+    'REDIRECT_URL' => '/api/web/v1/contacts'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/contacts'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422977918.146
+    'REQUEST_TIME' => 1422977918
+]
+2015-02-03 15:44:13 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'api\modules\v1\models\Customer' not found' in /Users/dm/Sites/fastdev/backend/api/modules/v1/models/Cat.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-02-03 15:44:13 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '58778'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422978253.55
+    'REQUEST_TIME' => 1422978253
+]
+2015-02-03 17:50:04 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class contact_id does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('contact_id')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('contact_id')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('contact_id', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('contact_id', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/validators/Validator.php(204): yii\BaseYii::createObject(Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(422): yii\validators\Validator::createValidator('contact_id', Object(api\modules\v1\models\Cat), Array, Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(386): yii\base\Model->createValidators()
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(184): yii\base\Model->getValidators()
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(715): yii\base\Model->scenarios()
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(659): yii\base\Model->safeAttributes()
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(765): yii\base\Model->setAttributes(Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\base\Model->load(Array, '')
+#12 [internal function]: yii\rest\CreateAction->run()
+#13 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#14 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#15 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#17 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#19 {main}
+2015-02-03 17:50:04 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '48'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59649'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422985804.757
+    'REQUEST_TIME' => 1422985804
+]
+2015-02-03 17:50:51 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class contact_id does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('contact_id')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('contact_id')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('contact_id', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('contact_id', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/validators/Validator.php(204): yii\BaseYii::createObject(Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(422): yii\validators\Validator::createValidator('contact_id', Object(api\modules\v1\models\Cat), Array, Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(386): yii\base\Model->createValidators()
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(184): yii\base\Model->getValidators()
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(715): yii\base\Model->scenarios()
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(659): yii\base\Model->safeAttributes()
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(765): yii\base\Model->setAttributes(Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\base\Model->load(Array, '')
+#12 [internal function]: yii\rest\CreateAction->run()
+#13 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#14 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#15 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#17 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#19 {main}
+2015-02-03 17:50:51 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '39'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59661'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422985851.529
+    'REQUEST_TIME' => 1422985851
+]
+2015-02-03 17:51:16 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class contact_id does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('contact_id')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('contact_id')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('contact_id', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('contact_id', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/validators/Validator.php(204): yii\BaseYii::createObject(Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(422): yii\validators\Validator::createValidator('contact_id', Object(api\modules\v1\models\Cat), Array, Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(386): yii\base\Model->createValidators()
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(184): yii\base\Model->getValidators()
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(715): yii\base\Model->scenarios()
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(659): yii\base\Model->safeAttributes()
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(765): yii\base\Model->setAttributes(Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\base\Model->load(Array, '')
+#12 [internal function]: yii\rest\CreateAction->run()
+#13 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#14 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#15 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#17 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#19 {main}
+2015-02-03 17:51:16 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59672'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422985876.012
+    'REQUEST_TIME' => 1422985876
+]
+2015-02-03 17:54:49 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class contact_id does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('contact_id')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('contact_id')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('contact_id', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('contact_id', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/validators/Validator.php(204): yii\BaseYii::createObject(Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(422): yii\validators\Validator::createValidator('contact_id', Object(api\modules\v1\models\Cat), Array, Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(386): yii\base\Model->createValidators()
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(184): yii\base\Model->getValidators()
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(715): yii\base\Model->scenarios()
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(659): yii\base\Model->safeAttributes()
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(765): yii\base\Model->setAttributes(Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\base\Model->load(Array, '')
+#12 [internal function]: yii\rest\CreateAction->run()
+#13 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#14 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#15 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#17 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#19 {main}
+2015-02-03 17:54:49 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '61'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59746'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422986089.496
+    'REQUEST_TIME' => 1422986089
+]
+2015-02-03 17:55:37 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class contact_id does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('contact_id')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('contact_id')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('contact_id', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('contact_id', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/validators/Validator.php(204): yii\BaseYii::createObject(Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(422): yii\validators\Validator::createValidator('contact_id', Object(api\modules\v1\models\Cat), Array, Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(386): yii\base\Model->createValidators()
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(184): yii\base\Model->getValidators()
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(715): yii\base\Model->scenarios()
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(659): yii\base\Model->safeAttributes()
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(765): yii\base\Model->setAttributes(Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\base\Model->load(Array, '')
+#12 [internal function]: yii\rest\CreateAction->run()
+#13 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#14 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#15 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#17 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#19 {main}
+2015-02-03 17:55:37 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59762'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422986137.04
+    'REQUEST_TIME' => 1422986137
+]
+2015-02-03 17:59:46 [127.0.0.1][-][-][error][ReflectionException] exception 'ReflectionException' with message 'Class contact_id does not exist' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php:411
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(411): ReflectionClass->__construct('contact_id')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(354): yii\di\Container->getDependencies('contact_id')
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/di/Container.php(147): yii\di\Container->build('contact_id', Array, Array)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('contact_id', Array, Array)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/validators/Validator.php(204): yii\BaseYii::createObject(Array)
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(422): yii\validators\Validator::createValidator('contact_id', Object(api\modules\v1\models\Cat), Array, Array)
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(386): yii\base\Model->createValidators()
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(184): yii\base\Model->getValidators()
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(715): yii\base\Model->scenarios()
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(659): yii\base\Model->safeAttributes()
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Model.php(765): yii\base\Model->setAttributes(Array)
+#11 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(49): yii\base\Model->load(Array, '')
+#12 [internal function]: yii\rest\CreateAction->run()
+#13 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#14 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#15 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#16 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#17 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#19 {main}
+2015-02-03 17:59:46 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59817'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422986386.672
+    'REQUEST_TIME' => 1422986386
+]
+2015-02-03 18:05:34 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(462): yii\db\Command->execute()
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+The SQL being executed was: INSERT INTO "cat" ("id") VALUES (NULL)' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(462): yii\db\Command->execute()
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+)
+
+2015-02-03 18:05:34 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '59968'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422986734.842
+    'REQUEST_TIME' => 1422986734
+]
+2015-02-03 18:08:52 [127.0.0.1][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of api\modules\v1\controllers\CatController::createAction() should be compatible with yii\base\Controller::createAction($id)' in /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php:9
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php(9): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', '/Users/dm/Sites...', 9, Array)
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(288): include('/Users/dm/Sites...')
+#2 [internal function]: yii\BaseYii::autoload('api\\modules\\v1\\...')
+#3 [internal function]: spl_autoload_call('api\\modules\\v1\\...')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(563): class_exists('api\\modules\\v1\\...')
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('cat')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('cat/options')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/options')
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/options', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2015-02-03 18:08:52 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCESS_CONTROL_REQUEST_METHOD' => 'POST'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCESS_CONTROL_REQUEST_HEADERS' => 'accept, content-type'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '60003'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'OPTIONS'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422986932.412
+    'REQUEST_TIME' => 1422986932
+]
+2015-02-03 18:09:05 [127.0.0.1][-][-][error][yii\base\ErrorException:2048] exception 'yii\base\ErrorException' with message 'Declaration of api\modules\v1\controllers\CatController::createAction() should be compatible with yii\base\Controller::createAction($id)' in /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php:9
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/api/modules/v1/controllers/CatController.php(9): yii\base\ErrorHandler->handleError(2048, 'Declaration of ...', '/Users/dm/Sites...', 9, Array)
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/BaseYii.php(288): include('/Users/dm/Sites...')
+#2 [internal function]: yii\BaseYii::autoload('api\\modules\\v1\\...')
+#3 [internal function]: spl_autoload_call('api\\modules\\v1\\...')
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(563): class_exists('api\\modules\\v1\\...')
+#5 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(521): yii\base\Module->createControllerByID('cat')
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(513): yii\base\Module->createController('cat/options')
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(449): yii\base\Module->createController('v1/cat/options')
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/options', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#11 {main}
+2015-02-03 18:09:05 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCESS_CONTROL_REQUEST_METHOD' => 'POST'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'HTTP_ACCESS_CONTROL_REQUEST_HEADERS' => 'accept, content-type'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '60004'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'OPTIONS'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422986945.585
+    'REQUEST_TIME' => 1422986945
+]
+2015-02-03 18:10:18 [127.0.0.1][-][-][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php:768
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(768): PDOStatement->execute()
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(462): yii\db\Command->execute()
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+The SQL being executed was: INSERT INTO "cat" ("id") VALUES (NULL)' in /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Schema.php:532
+Stack trace:
+#0 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/Command.php(776): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO "ca...')
+#1 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(462): yii\db\Command->execute()
+#2 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/ActiveRecord.php(425): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/db/BaseActiveRecord.php(583): yii\db\ActiveRecord->insert(true, NULL)
+#4 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/rest/CreateAction.php(50): yii\db\BaseActiveRecord->save()
+#5 [internal function]: yii\rest\CreateAction->run()
+#6 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Action.php(92): call_user_func_array(Array, Array)
+#7 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\Action->runWithParams(Array)
+#8 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('create', Array)
+#9 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('v1/cat/create', Array)
+#10 /Users/dm/Sites/fastdev/backend/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /Users/dm/Sites/fastdev/backend/api/web/index.php(17): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23502
+    [1] => 7
+    [2] => ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, null, null, null).
+)
+
+2015-02-03 18:10:18 [127.0.0.1][-][-][info][application] $_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'local.fastdev2.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_ORIGIN' => 'http://local.fastdev.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36'
+    'CONTENT_TYPE' => 'application/json;charset=UTF-8'
+    'HTTP_REFERER' => 'http://local.fastdev.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Unix) PHP/5.6.4'
+    'SERVER_NAME' => 'local.fastdev2.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Users/dm/Sites/fastdev/backend'
+    'SERVER_ADMIN' => 'dmbachurin@gmail.com'
+    'SCRIPT_FILENAME' => '/Users/dm/Sites/fastdev/backend/api/web/index.php'
+    'REMOTE_PORT' => '60059'
+    'REDIRECT_URL' => '/api/web/v1/cats'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/api/web/v1/cats'
+    'SCRIPT_NAME' => '/api/web/index.php'
+    'PHP_SELF' => '/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1422987018.78
+    'REQUEST_TIME' => 1422987018
+]
